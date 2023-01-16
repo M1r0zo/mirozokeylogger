@@ -43,14 +43,10 @@ Run one of the installers.
 
 It registers clicks. Working online version of full mirozokeylogger released soon.
 
-### Creating A Pull Request
-
-
-
 ## License
 
 I got no license.
 
 ## Authors
 
-* **Mirozo** - *IT* - [Mirozo](https://github.com/MirozoPL/) - *Fucked your mom*
+* **Mirozo** - *IT* - [Here's my github if you somehow can't navigate](https://github.com/MirozoPL/) - *Created all this shit*

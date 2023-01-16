@@ -53,8 +53,4 @@ I got no license.
 
 ## Authors
 
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
-
-## Acknowledgements
-
-* [Mirozo](https://github.com/MirozoPL/)
+* **Mirozo** - *IT* - [Mirozo](https://github.com/MirozoPL/) - *Fucked your mom*

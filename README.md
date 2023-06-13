@@ -25,7 +25,7 @@
 
 ## Built With
 
-Powershell scripts, Cmd scripts, C++ aplications
+Powershell scripts, Cmd scripts, C++ aplications and other shit
 
 ## Getting Started
 
